@@ -286,7 +286,7 @@ always@(posedge clock) begin
 	   PC <= PC;
 		PC_decode <= PC_decode;
 		decode_IR <= decode_IR;
-      execute_IR <= 0; 	
+      execute_IR <= execute_IR; 	
 	 end
 	 
 	 // SB Control
